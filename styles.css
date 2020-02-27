@@ -9,6 +9,9 @@
     font-size: 45px;
   }
 
+body {
+    background-color: #FFE9AF;
+}
 .wrapper {
     justify-content: center;
     background-color: #FFE9AF;
@@ -22,12 +25,19 @@
 }
 
 .photo {
-    max-width: 33%;
+    max-width: 320px;
     padding: 1%;
+}
+
+.photo p {
+    background-color: white;
+    border-radius: 4px;
 }
 
 .roles {
     min-width: 66%;
+    background-color: white;
+    border: 1px solid;
 }
 
 .roles h2 {
