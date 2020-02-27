@@ -19,6 +19,16 @@
     flex-wrap: row wrap;
 }
 
+.photo {
+    max-width: 33%;
+    padding: 1%;
+}
+
+.roles {
+    min-width: 66%;
+    font-family: 'Passion One', ;
+}
+
 .photo img{
     max-width: 100%;
     border: 1px solid;
