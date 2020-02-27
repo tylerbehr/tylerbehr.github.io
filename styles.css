@@ -29,6 +29,16 @@
     font-family: 'Passion One', ;
 }
 
+.roles h2 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Oxanium';
+}
+
+.roles li {
+    font-family: 'Overlock';
+}
+
 .photo img{
     max-width: 100%;
     border: 1px solid;
