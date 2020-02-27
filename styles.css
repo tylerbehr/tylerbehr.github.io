@@ -14,7 +14,6 @@ body {
     margin: 0px;
 }
 .wrapper {
-    align-items: center;
     background-color: #FFE9AF;
 }
 
@@ -22,6 +21,7 @@ body {
     max-width: 960px;
     display: flex;
     flex-wrap: row wrap;
+    margin: 0 auto;
 }
 
 .photo {
@@ -32,6 +32,7 @@ body {
 .photo p {
     background-color: white;
     border-radius: 4px;
+    max-height: 225px;
 }
 
 .roles {
@@ -40,6 +41,7 @@ body {
     background-color: white;
     border: 1px solid;
     padding: 1%;
+    align-items: center;
 }
 
 .roles h2 {
