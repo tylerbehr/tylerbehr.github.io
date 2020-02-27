@@ -3,7 +3,7 @@
     flex-flow: row wrap;
     background-color: #0C2BB3;
     color: #CED0CE;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 15px;
     align-items: center;
     font-size: 45px;
@@ -26,7 +26,7 @@ body {
 
 .photo {
     max-width: 320px;
-    padding: 1%;
+    margin-right: 10px;
 }
 
 .photo p {
