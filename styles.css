@@ -15,12 +15,5 @@
 
 .content {
     max-width: 960px;
-}
-
-.photo {
-    flex: 0;
-}
-
-.roles {
-    flex: 1;
+    display: flex;
 }
