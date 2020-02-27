@@ -16,4 +16,11 @@
 .content {
     max-width: 960px;
     display: flex;
+    flex-wrap: row wrap;
+}
+
+.photo img{
+    max-width: 100%;
+    border: 1px solid;
+    border-radius: 4px;
 }
