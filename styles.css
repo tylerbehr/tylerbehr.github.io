@@ -14,7 +14,7 @@ body {
     margin: 0px;
 }
 .wrapper {
-    justify-content: center;
+    align-items: center;
     background-color: #FFE9AF;
 }
 
@@ -36,8 +36,10 @@ body {
 
 .roles {
     min-width: 640px;
+    max-height: 350px;
     background-color: white;
     border: 1px solid;
+    padding: 1%;
 }
 
 .roles h2 {
