@@ -26,16 +26,21 @@
     </div>
     <script>
       function clickMe() {
-        const header_content = document.querySelector(".header");
-        header_content.innerHTML = "Tyler Behr's Lab 4";
-
         let p1 = document.createElement("p");
         document.querySelector(".content").appendChild(p1);
         p1.innerHTML = "My name has 9 characters";
         
         let p2 = document.createElement("p");
         document.querySelector(".content").appendChild(p2);
-        p2.innerHTML = "The third character in my name is L</br>";
+        p2.innerHTML = "The third character in my name is L</br>" + "ehr";
+
+        var full_name = "Tyler Behr";
+        var fsub = full_name.substring(0, 5);
+        var lsub = full_name.substring(6, 10);
+        full_length = fsub.length + lsub.length;
+
+        const header_content = document.querySelector(".header");
+        header_content.innerHTML = "Tyler Behr's " + full_length + " Lab 4";
       }
     </script>
   </body>
