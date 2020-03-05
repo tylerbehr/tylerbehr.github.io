@@ -29,20 +29,13 @@
         const header_content = document.querySelector(".header");
         header_content.innerHTML = "Tyler Behr's Lab 4";
 
-        const para_content = document.querySelector(".content");
-        para_content.innerHTML = para1 + para2;
-
-        function para1() {
-          var p1 = document.createElement("p");
-          p1.innerHTML = "My name has 9 characters";
-          document.getElementById("content").appendChild(p1);
-        }
-
-        function para2() {
-          var p2 = document.createElement("p");
-          p2.innerHTML = "The third character in my name is L";
-          document.getElementById("content").appendChild(p2);
-        }
+        let p1 = document.createElement("p");
+        document.querySelector(".content").appendChild(p1);
+        p1.innerHTML = "My name has 9 characters";
+        
+        let p2 = document.createElement("p");
+        document.querySelector(".content").appendChild(p2);
+        p2.innerHTML = "The third character in my name is L</br>";
       }
     </script>
   </body>
