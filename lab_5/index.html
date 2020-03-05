@@ -266,8 +266,9 @@
     ]
     console.log("List of countries in the world", countries);
 
-    let countries = document.createElement("ol");
-    document.querySelector(".content").appendChild(countries);
+    let country_list = document.createElement("ol");
+    document.querySelector(".content").appendChild(country_list);
+    country_list.setAttribute("class", "countries");
   </script>
 </body>
 </html>
