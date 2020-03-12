@@ -277,12 +277,12 @@
     var country_nums = [];
 
     for(let i = 0; i < 25; i++){
-      country_nums += getRandomInt(min, max);
+      
     }
 
     function getRandomInt(min, max){
       min = Math.ceil(0);
-      max = Math.floor(242);
+      max = Math.floor(countries.length);
       return Math.floor(Math.random() * (max- min + 1)) + min;
     }
   </script>
