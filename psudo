@@ -1,0 +1,9 @@
+int counter = 0;
+for(int i =0;i<array.length;i++){
+    if(counter!=25){
+    Random rand = new Random(array.length);
+    List<string>newList = new List<String>();
+    newList.add(array[rand(i)]);
+    counter += 1;
+    }
+}
