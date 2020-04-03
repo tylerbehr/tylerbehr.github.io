@@ -34,7 +34,7 @@
     </div>
     <script>
       /* Your lab code can go here, or in an external file you include */
-      const mymap = L.map("map1").setView([38.9897, -76.9378], 13);
+      const mymap = L.map("map1").setView([38.9897, -76.9378], 10);
       L.tileLayer(
         "https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}",
         {
@@ -52,6 +52,22 @@
       const marker1 = L.marker([38.9860, -76.9451]).addTo(mymap);
       const str1 = "<b>McKeldin Library</b>";
       marker1.bindPopup(str1).openPopup();
+
+      /* Marker 2 */
+      const marker2 = L.marker([38.890613, -76.852767]).addTo(mymap);
+      const str2 = "<b>Cameron's Seafood Restuarant</b>";
+      marker2.bindPopup(str2).openPopup();
+
+      /* Marker 3 */
+      const marker3 = L.marker([38.841715, -76.948101]).addTo(mymap);
+      const str3 = "<b>Wendys 6592</b>";
+      marker3.bindPopup(str3).openPopup();
+
+      /* Marker 4 */
+      const marker4 = L.marker([38.833494, -76.785756]).addTo(mymap);
+      const str4 = "<b>Barrack Obama Elementary School</b>";
+      marker4.bindPopup(str4).openPopup();
+
     </script>
   </body>
 </html>
