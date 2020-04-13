@@ -49,11 +49,11 @@
           });
           return reformattedData;
         })
-        .then((results)) => {
+        .then((results) => {
           console.log(results);
           const chart = new CanvasJS.Chart("chartContainer",{
             animationEnabled: true,
-            exportEnabled: true;
+            exportEnabled: true,
             theme: "light1",
             title:{
               text: "Simple Column Chart with Index Labels"
@@ -63,13 +63,11 @@
               indexLabelFontColor: "#5A5757",
               indexLabelFontSize: 16,
               indexLabelPlacement: "outside",
-              dataPoints: [
-
-              ]
+              dataPoints: results
             }]
           });
           chart.render();
-        }
+        })
     </script>
   </body>
 </html>
