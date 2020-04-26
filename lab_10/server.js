@@ -18,6 +18,13 @@ const dbSettings = {
 const app = express();
 const port = process.env.PORT || 3000;
 
+const db = new sqlite3.Database(':memory:', (err) => {
+  if(err){
+    return console.error('err.message');
+  }
+  console.log('Connected to the in-memory SQL database');
+});
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
@@ -63,7 +70,7 @@ app
       writeUser(req.body.name, dbSettings)
       .then((result) => {
         console.log(result);
-        res.send("your request was successful"); // simple mode
+        res.send("Great Job! It works!"); // simple mode
       })
       .catch((err) => {
         console.log(err);
